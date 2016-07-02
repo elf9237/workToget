@@ -2,7 +2,7 @@ h4, h5, h6,
 h1, h2, h3{margin-top: 0;}
 ul, ol{margin: 0;}
 p{margin: 0;}
-html, body{font-family: 'Roboto', sans-serif; font-size: 100%;background:#464e78;overflow-x: hidden;}
+html, body{font-family: 'Roboto', sans-serif; font-size: 100%;background:#fff;overflow-x: hidden;}
 body a{transition:0.5s all;-webkit-transition:0.5s all;-moz-transition:0.5s all;-o-transition:0.5s all;-ms-transition:0.5s all;}
 .mt30{margin-top: 30px;}
 .text-primary{color: #5ca5ff;}
@@ -646,6 +646,7 @@ span.btn_7{font-size: 64%;}}
 .userTable table tbody tr td{color: #464e78;text-align: center; font-size: 14px; font-weight: 800; border-right:none; border-left: none;}
 .userTable table tbody tr th{text-align: center; border-right: none}
 .userTable table tbody tr td a{color: #4a820d;}
+.userTable table tbody tr td a span{margin-right: 5px;}
 .mt20{margin-top: 20px;}
 .userTable table thead tr th input,.userTable table tbody tr th input{width: 20px;height: 20px; background: #fff;}
 .model-sel .form-control{border-radius: 0;border-color: #cccedd;color: #d3d3e5;}
@@ -667,7 +668,7 @@ span.btn_7{font-size: 64%;}}
 .taskList-progress:hover,.taskList-progress.active{border-color: #e3746f}
 .taskList-progress:hover .taskList-progress-cover,.taskList-progress.active .taskList-progress-cover{background: url(../images/check-box-red.png) no-repeat left top;z-index: 100}
 /*.taskList-progress:hover .taskList-progress-cover-inner,.taskList-progress.active .taskList-progress-cover-inner{background: url(../images/bg-check.png) repeat left top;width: 100%;height: 100%;z-index: 10;opacity: .2;filter:alpha(opacity=.2)}*/
-.taskList-progress.active .taskList-progress-cover-inner{background: url(../images/bg-check.png) repeat left top;width: 100%;height: 75%;z-index: 10;opacity: .2;filter:alpha(opacity=.2)}
+.taskList-progress.active .taskList-progress-cover-inner{background: url(../images/bg-check.png) repeat left top;width: 100%;height: 13%;z-index: 10;opacity: .2;filter:alpha(opacity=.2)}
 .taskList-progress .data-show{width: 118px;height: 107px;}
 /*节点修改*/
 .inputWrap{border: 1px solid #ccc;position: relative;}
@@ -711,9 +712,15 @@ a.other-link{color:#4a820d}
 .task-work .panel{padding-bottom: 30px}
 .mt50{margin-top: 50px;}
 
-.pob-addUser {width: 400px;margin: 20px auto 0;min-height: 300px}
-.pob-addUser .form-horizontal .control-label{width: 110px;text-align: right;height: 34px;line-height: 34px;}
-.pob-addUser .col-sm-2{width: 300px;}
+/*新增员工弹窗*/
+.pob-addUser {margin: 20px auto 0;min-height: 300px}
+.pob-addUser .form-horizontal .control-label{text-align: right;height: 34px;line-height: 34px;float: left}
+.btn-wrap .btn{background: #6b739f;color: #fff;height: 40px;line-height: 40px;padding: 0 40px;}
+@media screen and (max-width: 600px){
+	.pob-addUser .form-horizontal .control-label{width: 110px;text-align: right;height: 34px;line-height: 34px;}
+	.pob-addUser .col-sm-2{width: 300px;}
+	.pob-addUser .form-horizontal{margin-left: 50px}
+}
 
 .timeSel .taskSel00{width: 100px;margin-left: 20px;}
 .timeSel .taskSel00 select{border: 1px solid #E3EBF5;border-bottom: 4px solid #E3EBF5;border-radius: 0;background: #E3EBF5;box-shadow: inset 0 1px 1px #E3EBF5;}
@@ -794,3 +801,42 @@ body{background: #fff;overflow: hidden;}
 .search{margin-right: 20px\0}
 .navbar .navbar-nav li .avatar.dropdown-toggle img{border: none\0}
 .userModelTable{margin-right: 40px}
+
+/*新建任务基本信息*/
+.btn-time{display: inline-block;width: 19px;height: 21px;background: url(../images/icon-time.png) no-repeat center;cursor: pointer;position: absolute;right: 25px;top: 6px;}
+.add-modeules.add-detail .form-horizontal .control-label{min-width: 100px}
+.green{color: #47ca24;}
+.add-detail .tips{height: 34px;line-height: 34px;}
+.add-detail-sel{width: 20%;border: 1px solid #e5e5e5;padding: 10px;background: #fff;margin-right: 30px}
+.add-detail-sel h5{color: #3b4267;font-size: 18px;text-align: center;font-weight: 800}
+.add-detail-sel>span{display: block;text-align: center;font-size: 14px;margin-top: 10px}
+.add-detail-sel>span img{margin-right: 5px}
+.add-detail-sel span.txt{display: inline-block;min-width: 50px;text-align: left;}
+.add-detail-sel .greenDark{color: #4a820d;cursor: pointer;}
+.basic-work-btn .btn{width: 20%}
+
+/*文件维护*/
+.add-modeules-file{border: 1px solid #e5e5e5;background: #fff;padding: 10px}
+.add-modeules-file .hasSelFile{padding: 10px;background: #eeeff7;}
+.add-modeules-file .hasSelFile .radio-inline{margin-right: 20px}
+.add-modeules-file .form-horizontal .radio-inline{padding-top: 0px}
+.add-modeules-file .panel{border: none;}
+.add-modeules-file .panel-body{padding: 0}
+.add-modeules-file .btnWrap a{min-width: 60px;width: 25%}
+.fileContent h6{font-size: 14px;text-align: left;}
+.fileContent p{text-align: left;color: #999}
+.add-modeules-file .task-work .fileWrap .fileContent{padding-top: 30px}
+
+/*相关文档查询*/
+.linkFileView-wrap{position: relative;padding: 10px;margin-top: -10px}
+.linkFileView{position: absolute;width:800px;border: 1px solid #e5e5e5;background: #fff;z-index: 10;right: 130px;bottom: -55px;padding: 10px 20px}
+.linkFileView-wrap h5{color: #5ba4fe;font-size: 14px}
+.linkFileView .fileWrapmin{width: 140px;position: relative;margin-left: 10px}
+.linkFileView .fileContent{height: 90px;}
+.linkFileView .fileContent .fileImg{width: 45px;height: 45px;display: inline-block;}
+.linkFileView .fileContent .fileImg img{width: 100%}
+.linkFileView .fileContent .file-txt{width: 90px;font-size: 12px;margin-left: 5px}
+.linkFileView .btnWrap{width: 145px}
+.linkFileView .btnWrap a{width: 30%;min-width: 30px}
+.task-work .linkFileView .btnWrap{position: absolute;left: -10px;}
+.linkFileView .sanjiao-right{width: 30px;height: 20px;display: inline-block;position: absolute;right: -19px;bottom: 63px;background: url(../images/sanjiao-right.png) no-repeat center;}

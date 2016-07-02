@@ -2,4 +2,4 @@ body .layer-ext-myskin{border-radius: 10px;}
 body .layer-ext-myskin .layui-layer-title{border-top-right-radius: 10px;border-top-left-radius: 10px;color: #464e78;font-size: 18px;background: #fff;border-bottom: 1px solid #e5e5e5;font-weight: 800}
 body .layer-ext-myskin .layui-layer-btn{text-align: center;}
 body .layer-ext-myskin .layui-layer-btn a{background: #6b739f;color: #fff;height: 40px;line-height: 40px;padding:0 40px;}
-body .layer-ext-myskin .layui-layer-content{height: 270px;}
+body .layer-ext-myskin .layui-layer-content{height: 360px;background: #fff}
