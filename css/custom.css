@@ -1,0 +1,49 @@
+#wrapper{width: 100%;}
+#page-wrapper{/*--padding: 0 15px;--*/ min-height: 568px; background-color: #fff;}
+@media(min-width:768px){#page-wrapper{position: inherit; margin: 0 0 0 135px; /*--padding: 0 30px;--*/ border-left: 1px solid #e7e7e7;}}
+.navbar-top-links{margin-right: 0;}
+.navbar-top-links li{display: inline-block;}
+.navbar-top-links li:last-child{margin-right: 15px;}
+.navbar-top-links li a{padding: 15px; min-height: 50px;}
+.navbar-top-links .dropdown-menu li{display: block;}
+.navbar-top-links .dropdown-menu li:last-child{margin-right: 0;}
+.navbar-top-links .dropdown-menu li a{padding: 3px 20px; min-height: 0;}
+.navbar-top-links .dropdown-menu li a div{white-space: normal;}
+.navbar-top-links .dropdown-messages,
+.navbar-top-links .dropdown-tasks,
+.navbar-top-links .dropdown-alerts{width: 310px; min-width: 0;}
+.navbar-top-links .dropdown-messages{margin-left: 5px;}
+.navbar-top-links .dropdown-tasks{margin-left: -59px;}
+.navbar-top-links .dropdown-alerts{margin-left: -123px;}
+.navbar-top-links .dropdown-user{right: 0; left: auto;}
+.sidebar .sidebar-nav.navbar-collapse{padding-right: 0; padding-left: 0;}
+.sidebar .sidebar-search{padding: 15px;}
+/*.sidebar .sort-asc{float: right; width: 6px; height: 3px; display: inline-block; margin-top: 8px; background: url(../images/fa-sort-asc.png) no-repeat;}*/
+/*.nav>li>a:focus .sort-asc,
+.nav>li>a:hover .sort-asc,
+.sidebar-nav>ul>li>a:hover .sort-asc,
+.sidebar-nav>ul>li.active>a .sort-asc{background: url(../images/fa-sort-asc-hover.png) no-repeat;}*/
+/*.nav>li>a:focus .flask ,
+.nav>li>a:hover .flask ,
+.sidebar-nav>ul>li>a:hover .flask ,
+.sidebar-nav>ul>li.active>a .flask{background: url(../images/file-text-task.png) no-repeat;}*/
+/*.sidebar .fa.fa-sort-asc:before{content: "\f104";}
+.sidebar .active>a>.fa.fa-sort-asc:before{content: "\f107";}*/
+.sidebar .file-text-o{width: 15px; height: 17px; display: inline-block; background: url(../images/file-text-o.png) no-repeat;}
+.sidebar .user{width: 15px; height: 17px; display: inline-block; background: url(../images/user.png) no-repeat;}
+.sidebar .users{width: 20px; height: 18px; display: inline-block; background: url(../images/user-more.png) no-repeat;}
+.sidebar .envelope{width: 20px; height: 18px; display: inline-block; background: url(../images/file-text-m.png) no-repeat;}
+.sidebar .flask{width: 20px; height: 18px; display: inline-block; background: url(../images/file-text-task-un.png) no-repeat;}
+.sidebar .whatdoing{width: 20px; height: 18px; display: inline-block; background: url(../images/whatdoing.png) no-repeat;}
+.sidebar .nav-second-level li,
+.sidebar .nav-third-level li{border-bottom: 0!important;}
+.sidebar .nav-second-level li a{padding-left: 37px;}
+.sidebar .nav-third-level li a{padding-left: 52px;}
+@media(min-width:768px){.sidebar{z-index: 1; position: absolute; width: 135px; margin-top: 65px;} .navbar-top-links .dropdown-messages, .navbar-top-links .dropdown-tasks, .navbar-top-links .dropdown-alerts{margin-left: auto;} .navbar-header{margin-top: 10px;} .navbar-nav{margin-top: 10px;} .add-modeules .col-sm-offset-2{margin-left: 90px;} .model-sel .form-horizontal .form-group{width: 300px;}
+.model-sel .form-horizontal .form-group .col-sm-2.model-sel-de{width: 180px;padding-left: 0}
+.model-sel .form-horizontal .form-group label.col-sm-2{width: 95px;color: #383331;font-weight: 800}
+/*任务预览*/
+.taskSel .taskSel00{width: 230px;margin-right: 20px;}
+.taskDoing .taskSel00{width: 160px;}
+.graph_box .grid_2{width: 18%;}}
+@media(max-width:425px){.form-horizontal .form-group{margin-right: 10px;} .input-text-list{margin-top: 10px;}}
