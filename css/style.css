@@ -668,7 +668,7 @@ span.btn_7{font-size: 64%;}}
 .taskList-progress:hover,.taskList-progress.active{border-color: #e3746f}
 .taskList-progress:hover .taskList-progress-cover,.taskList-progress.active .taskList-progress-cover{background: url(../images/check-box-red.png) no-repeat left top;z-index: 100}
 /*.taskList-progress:hover .taskList-progress-cover-inner,.taskList-progress.active .taskList-progress-cover-inner{background: url(../images/bg-check.png) repeat left top;width: 100%;height: 100%;z-index: 10;opacity: .2;filter:alpha(opacity=.2)}*/
-.taskList-progress.active .taskList-progress-cover-inner{background: url(../images/bg-check.png) repeat left top;width: 100%;height: 13%;z-index: 10;opacity: .2;filter:alpha(opacity=.2)}
+.taskList-progress.active .taskList-progress-cover-inner{background: url(../images/bg-check.png) repeat left top;width: 100%;height: 13%;z-index: 10;}
 .taskList-progress .data-show{width: 118px;height: 107px;}
 /*节点修改*/
 .inputWrap{border: 1px solid #ccc;position: relative;}
