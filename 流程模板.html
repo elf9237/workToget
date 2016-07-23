@@ -318,10 +318,11 @@
   <script src="js/style.js"></script>
   <script type="text/javascript">
       $(function(){
-        $('.taskList-progress').on('click',function(){
+        $('.taskList-progress-cover-inner').on('click',function(){
           $(this).toggleClass('active');
+          $(this).parents('.taskList-progress').toggleClass('active');
         });
-        
+
       })
     </script>
 </body>
